@@ -14,7 +14,7 @@
 }
 .fontdesign{
   font-family: "Inter", sans-serif;
-  text-align: left; 
+  text-align: justify; 
  
 }
 .fontdesign1{
@@ -139,7 +139,7 @@ padding: 10px;
 .aboutheaddesign1{
   font-family: "Montserrat", serif;
   font-size: 40px;
-  text-align: left; 
+  text-align: center; 
   font-weight: 720;
 }
 .posabs{
@@ -563,4 +563,7 @@ button {
   color: #d1d1d1;
   border: none;
  
+}
+.city{
+  font-size:50px;
 }

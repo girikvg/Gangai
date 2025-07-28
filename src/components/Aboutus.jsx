@@ -14,9 +14,8 @@ function About() {
   className="text-center text-lg-start d-flex flex-column align-items-center align-items-lg-start mb-3 mb-lg-0 text-animation mx-auto justify-content-center"
 >
   <div className="p-md-5">
-    <div className='fontdesign smallheading text-center text-lg-start'>        </div>
-    <div className="aboutheaddesign1 pb-2 text-center text-lg-start">
-     Best Borewell Drilling Contractors in Tamil Nadu (Kongu Region) | Gangai Borewells
+    <div className="aboutheaddesign1 pb-2 text-lg-start">
+     Best Borewell Drilling Contractors in Tamil Nadu (Kongu Region) <br />| Gangai Borewells
     </div>
     <p className="fontdesign ">
      Gangai Borewell Contractors, located in Gobichettipalayam, is a leading borewell drilling company in the Kongu region, delivering professional services since the 1980s. With over 40 years of expertise, we specialize in handling complex borewell drilling projects with precision.

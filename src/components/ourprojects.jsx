@@ -25,9 +25,9 @@ function OurProject() {
           >
             <img src={project.imgSrc} alt='' width='100%' />
             <Card.Body>
-              <Card.Title className="text-center">{project.title}</Card.Title>
+              <Card.Title className="text-center city">{project.title}</Card.Title>
               <Card.Text className="text-center">
-                <p className="fontdesign text-center">{project.description}</p>
+                <p className="fontdesign text-left">{project.description}</p>
               </Card.Text>
             </Card.Body>
           </Card>
