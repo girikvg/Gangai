@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import "animate.css"; // Import animate.css
+import group from "../image/Group 130.png";
 
 const Footer = () => {
   return (
@@ -11,6 +12,24 @@ const Footer = () => {
           <Row className="text-md-left text-center">
             {/* Quick Links (Left-Aligned) */}
             <Col md={3} className="text-md-start">
+             <h5 className="animate__animated animate__fadeInLeft">
+              
+               <img src={group} alt="logo" title="logo" width="40" height="40" /> GANGAI BOREWELLS
+              </h5>
+               <ul className="list-unstyled text-white">
+               <li>
+                  <a
+                    href="#home"
+                    className="text-white text-decoration-none animate__animated animate__pulse animate__delay-1s"
+                  >Gangai Borewell Contractors, located in Gobichettipalayam, is a leading borewell drilling company in the Kongu region, delivering professional services since the 1980s. With over 40 years of expertise, we specialize in handling complex borewell drilling projects with precision.
+                  </a>
+                </li>
+                </ul>
+            </Col>
+            
+
+            {/* Support (Left-Aligned) */}
+            <Col md={3}  className="text-md-start px-5">
               <h5 className="animate__animated animate__fadeInLeft">
                 Quick Links
               </h5>
@@ -42,47 +61,19 @@ const Footer = () => {
               </ul>
             </Col>
 
-            {/* Support (Left-Aligned) */}
-            <Col md={3} className="text-md-start text-white">
-              <h5 className="animate__animated animate__fadeInLeft animate__delay-1s">
-                Support
-              </h5>
-              <ul className="list-unstyled text-white">
-                <li>
-                  <a
-                    href="#home"
-                    className="text-white text-decoration-none animate__animated animate__pulse animate__delay-1s"
-                  >
-                    FAQs
-                  </a>
-                </li>
-
-                <li>
-                  <a
-                    href="#home"
-                    className="text-white text-decoration-none animate__animated animate__pulse animate__delay-4s"
-                  >
-                    Privacy Policy
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="#home"
-                    className="text-white text-decoration-none animate__animated animate__pulse animate__delay-3s"
-                  >
-                    Terms & Conditions
-                  </a>
-                </li>
-              </ul>
-            </Col>
-
             {/* Address Section */}
-            <Col md={3} className="text-center pb-2 text-white">
-              <h5> Address</h5>
-              858, G.S.T. Road, Kamaraj Nagar, Tambaram Sanatorium, Chennai, Tamil Nadu 600047
-              <br />
-              072999 60061
-            </Col>
+            <Col md={3} className="text-start pb-2 text-white">
+  <h5>Address</h5>
+  Gangai Borewells <br />
+  Near Jaganatha Mess, <br />
+  Kullampalayam, <br />
+  Gobichettipalayam, Tamil Nadu. 638476. <br /><br />
+  9842867128 <br />
+  <a href="gangaihighpowerborewells@gmail.com" className="text-white text-decoration-underline">
+    gangaihighpowerborewells@gmail.com
+  </a>
+</Col>
+
 
             {/* Location Section with Responsive iframe */}
             <Col md={3} className="text-center">
@@ -103,8 +94,8 @@ const Footer = () => {
 
       {/* Footer Bottom Links */}
       <Container>
-        <Row className="my-4 d-flex justify-content-between align-items-center">
-          <Col className="text-center fontdesign fw-bold">
+        <Row className="my-3 d-flex  align-items-center">
+          <Col className="fontdesign fw-bold">
             <p className="mb-1 ">
               &copy; {new Date().getFullYear()} Gangai Borewell. All Rights Reserved.
             </p>

@@ -30,23 +30,25 @@ const Accordion = () => {
       <Container>
         <p className='headingcss fontdesign text-center p-4 '>Frequently Asked Questions</p>
         <div className="container mt-4">
-          <AccordionItem title="Accordion Item 1">
-            <p>Borewell stands as a premier borewell drilling company in Tamil Nadu, renowned for its expertise and reliability in the field. With a legacy of excellence, JJ Borewell has spearheaded major projects across key regions including Chennai, Tiruvallur, Kanchipuram, and Chengalpattu. Offering precision drilling solutions, the company has earned a reputation for delivering superior results in even the most challenging terrains. With a commitment to quality, safety, and efficiency, JJ Borewell continues to be the trusted choice for borewell projects across Tamil Nadu, ensuring access to vital groundwater resources for various industries and communities.</p>
+          <AccordionItem title="1.	How long does it take to complete the drilling process?">
+            <p>The duration depends on the required depth and geological conditions.</p>
           </AccordionItem>
-          <AccordionItem title="Accordion Item 2">
-            <p>Borewell stands as a premier borewell drilling company in Tamil Nadu, renowned for its expertise and reliability in the field. With a legacy of excellence, JJ Borewell has spearheaded major projects across key regions including Chennai, Tiruvallur, Kanchipuram, and Chengalpattu. Offering precision drilling solutions, the company has earned a reputation for delivering superior results in even the most challenging terrains. With a commitment to quality, safety, and efficiency, JJ Borewell continues to be the trusted choice for borewell projects across Tamil Nadu, ensuring access to vital groundwater resources for various industries and communities.</p>
+          <AccordionItem title="2.	What is the suitable time for drilling a borewell?">
+            <p>There is no such prescribed season for drilling a borewell if the location of site has adequate ground water potential. </p>
           </AccordionItem>
-          <AccordionItem title="Accordion Item 3">
-            <p>Borewell stands as a premier borewell drilling company in Tamil Nadu, renowned for its expertise and reliability in the field. With a legacy of excellence, JJ Borewell has spearheaded major projects across key regions including Chennai, Tiruvallur, Kanchipuram, and Chengalpattu. Offering precision drilling solutions, the company has earned a reputation for delivering superior results in even the most challenging terrains. With a commitment to quality, safety, and efficiency, JJ Borewell continues to be the trusted choice for borewell projects across Tamil Nadu, ensuring access to vital groundwater resources for various industries and communities.</p>
+          <AccordionItem title="3.	What is the safe distance between a borewell and septic tank/soak pit?">
+            <p>Maintaining sufficient distance between a borewell and septic tank is always recommended as there are chances of contamination. 
+
+</p>
           </AccordionItem>
-          <AccordionItem title="Accordion Item 4">
-            <p>Borewell stands as a premier borewell drilling company in Tamil Nadu, renowned for its expertise and reliability in the field. With a legacy of excellence, JJ Borewell has spearheaded major projects across key regions including Chennai, Tiruvallur, Kanchipuram, and Chengalpattu. Offering precision drilling solutions, the company has earned a reputation for delivering superior results in even the most challenging terrains. With a commitment to quality, safety, and efficiency, JJ Borewell continues to be the trusted choice for borewell projects across Tamil Nadu, ensuring access to vital groundwater resources for various industries and communities.</p>
+          <AccordionItem title="4.	Can an existing borewell be deepened to increase the yield?">
+            <p>You can consult a geologist and based on his advice and you can deepen existing bore well to a greater depth for adequate quantity of groundwater.</p>
           </AccordionItem>
-          <AccordionItem title="Accordion Item 5">
-            <p>TBorewell stands as a premier borewell drilling company in Tamil Nadu, renowned for its expertise and reliability in the field. With a legacy of excellence, JJ Borewell has spearheaded major projects across key regions including Chennai, Tiruvallur, Kanchipuram, and Chengalpattu. Offering precision drilling solutions, the company has earned a reputation for delivering superior results in even the most challenging terrains. With a commitment to quality, safety, and efficiency, JJ Borewell continues to be the trusted choice for borewell projects across Tamil Nadu, ensuring access to vital groundwater resources for various industries and communities.</p>
+          <AccordionItem title="5.	How are charges for drilling a borewell calculated?">
+            <p>Drilling rates are sometimes charged in slabs for deep borewells, for others it varies and depends on various factors like site condition etc.</p>
           </AccordionItem>
-          <AccordionItem title="Accordion Item 6">
-            <p>Borewell stands as a premier borewell drilling company in Tamil Nadu, renowned for its expertise and reliability in the field. With a legacy of excellence, JJ Borewell has spearheaded major projects across key regions including Chennai, Tiruvallur, Kanchipuram, and Chengalpattu. Offering precision drilling solutions, the company has earned a reputation for delivering superior results in even the most challenging terrains. With a commitment to quality, safety, and efficiency, JJ Borewell continues to be the trusted choice for borewell projects across Tamil Nadu, ensuring access to vital groundwater resources for various industries and communities.</p>
+          <AccordionItem title="6.	What are the common methods for drilling borewells?">
+            <p>Methods of drilling to be adopted depends on factors of geological formation, cost factors, diameter and depth of borewell and the purpose intended.</p>
           </AccordionItem>
         </div>
       </Container>

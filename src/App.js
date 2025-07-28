@@ -15,6 +15,7 @@ function App() {
     <div>
     <Section2bg/>
     <Section3bg/>
+    
     </div>
     <Section4bg/>
     

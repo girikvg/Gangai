@@ -2,7 +2,7 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Button from 'react-bootstrap/Button';
+// import Button from 'react-bootstrap/Button';
 import base from '../image/base.jpg';
 
 function About() {
@@ -14,23 +14,20 @@ function About() {
   className="text-center text-lg-start d-flex flex-column align-items-center align-items-lg-start mb-3 mb-lg-0 text-animation mx-auto justify-content-center"
 >
   <div className="p-md-5">
-    <div className='fontdesign smallheading text-center text-lg-start'>Lorem ipsum dolor sit amet</div>
+    <div className='fontdesign smallheading text-center text-lg-start'>        </div>
     <div className="aboutheaddesign1 pb-2 text-center text-lg-start">
-      Best Borewell Drilling Service in Tamil Nadu
+     Best Borewell Drilling Contractors in Tamil Nadu (Kongu Region) | Gangai Borewells
     </div>
     <p className="fontdesign ">
-      The oldest classical British and Latin writings had little direction.
-      Over time, text direction (left to right) became standardized. Word
-      dividers and terminal punctuation became common. The first way to
-      divide sentences into groups was the original paragraphos, similar
-      to an underscore at the beginning of the new group. The Greek
-      parágraphos evolved into the pilcrow (¶), which in English
-      manuscripts in the Middle Ages can be seen inserted inline between
-      sentences.
+     Gangai Borewell Contractors, located in Gobichettipalayam, is a leading borewell drilling company in the Kongu region, delivering professional services since the 1980s. With over 40 years of expertise, we specialize in handling complex borewell drilling projects with precision.
+Using advanced hydraulic super rigs, sensor-mounted drilling machines, and high-power air compressors, we ensure reliable solutions for agricultural, residential, and industrial needs. Our services include borewell drilling, cleaning, extension, and expansion for apartments, schools, factories, and farms. 
+Trusted by clients for our quality, innovation, and timely service, <br />we are the preferred choice for borewell solutions across Tamil Nadu. 
+
+
     </p>
-    <div className="aboutbutton">
+    {/* <div className="aboutbutton">
       <Button variant="success" className='readmore fontdesign'>Read More</Button>
-    </div>
+    </div> */}
   </div>
 </Col>
 

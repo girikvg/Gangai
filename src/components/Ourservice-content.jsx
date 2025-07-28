@@ -23,13 +23,13 @@ function Outcontent() {
                 className="rotate-img mb-4"  // Rotating image
               
               />
-              <div className="pt-1  text-white fw-bolder animate__animated animate__zoomIn">
-                10 inch
+              <div className="pt-4  text-white fw-bolder animate__animated animate__zoomIn">
+            4.5 & 5 inch
               </div>
               <Card.Text className="text-white animate__animated animate__fadeInUp">
-                <h5 className="px-4 ">Successfully completed project</h5>
+                <h5 className="px-4 "> </h5>
                 <p className="px-4 pt-2">
-                  Some quick example text to build on the card title and make up the bulk
+                 4.5 and 5 inches are the most common diam0ter for individual homes and small buildings. 
                 </p>
               </Card.Text>
             </div>
@@ -45,13 +45,13 @@ function Outcontent() {
                 rounded
                 className="rotate-img mb-4"
               />
-              <div className=" pt-1 text-white fw-bolder animate__animated animate__zoomIn">
-                12 inch
+              <div className=" pt-4 text-white fw-bolder animate__animated animate__zoomIn">
+      6.5 inch
               </div>
               <Card.Text className="text-white animate__animated animate__fadeInUp">
-                <h5 className="px-4">Successfully completed project</h5>
+                <h5 className="px-4"> </h5>
                 <p className="px-4 pt-2">
-                  Some quick example text to build on the card title and make up the bulk
+                  6.5 inch are ideal for large apartments or housing complexes where higher output is needed.
                 </p>
               </Card.Text>
             </div>
@@ -67,13 +67,13 @@ function Outcontent() {
                 rounded
                 className="rotate-img mb-4"
               />
-              <div className=" pt-1 text-white fw-bolder animate__animated animate__zoomIn">
-                9 inch
+              <div className=" pt-4 text-white fw-bolder animate__animated animate__zoomIn">
+                8 inch
               </div>
               <Card.Text className="text-white animate__animated animate__fadeInUp">
-                <h5 className="px-4">Successfully completed project</h5>
+                <h5 className="px-4"> </h5>
                 <p className="px-4 pt-2">
-                  Some quick example text to build on the card title and make up the bulk
+                 8inch borewell is typically drilled for higher water yield in domestic, agricultural, and industrial establishments. 
                 </p>
               </Card.Text>
             </div>

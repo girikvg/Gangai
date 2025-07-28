@@ -5,12 +5,13 @@ import group from "../image/Group 130.png";
 import Container from "react-bootstrap/esm/Container";
 
 const navItems = [
-  { href: "#Home", label: "Home" },
+  { href: "#home", label: "Home" },
   { href: "#about", label: "About" },
   { href: "#project", label: "Project" },
   { href: "#service", label: "Services" },
   { href: "#contact", label: "Contact" },
 ];
+
 
 function NavHeader() {
   const [bgColor, setBgColor] = useState("transparent");

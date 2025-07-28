@@ -1,3 +1,4 @@
+import video2 from "../image/video.mp4";
 function Videoyou() {
   return (
     <div 
@@ -5,7 +6,7 @@ function Videoyou() {
      
     >
       <iframe 
-        src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" 
+        src= {video2}
         title="YouTube video" 
         allowFullScreen 
         style={{ width: "100%", height: "100%", borderRadius: "50%", border: "none" }} // Make iframe fully fill the container

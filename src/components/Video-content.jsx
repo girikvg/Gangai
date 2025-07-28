@@ -7,6 +7,7 @@ import Card from "react-bootstrap/Card";
 import "animate.css";
 import Op from "../image/op.svg";
 import eve from "../image/eve.svg";
+import video2 from "../image/video.mp4";
 
 function Video() {
   const handleRedirect = (url) => {
@@ -25,11 +26,9 @@ function Video() {
           <Container>
             <div className="headingcss fontdesign pb-4">Success Story</div>
             <p className="fontdesign">
-              A paragraph is defined as “a group of sentences or a single
-              sentence that forms a unit” (Lunsford and Connors 116). Length and
-              appearance do not determine whether a section in a paper is a
-              paragraph. For instance, in some styles of writing, particularly
-              journalistic styles.
+             In partnership with the Rotary Club, we resolved water scarcity for elementary school children by providing access to clean, safe water. This impactful initiative improved student health, supported hygiene, and empowered children to attend school regularly—laying a stronger foundation for the well-being of future generations through sustainable water solutions.
+
+
             </p>
           </Container>
 
@@ -80,7 +79,7 @@ function Video() {
           style={{ height: "55vh" }}
         >
           <iframe
-            src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0"
+            src={video2}
             title="YouTube video"
             allowFullScreen
             className="w-100 h-100"

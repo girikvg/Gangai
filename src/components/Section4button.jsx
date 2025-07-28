@@ -45,7 +45,7 @@ function Button4() {
           className="mb-5 custom-tabs mx-auto tabdesign animate__animated animate__fadeIn"
           justify
         >
-          <Tab eventKey="home" title="Chennai"> <Container>{renderImages()}
+          <Tab eventKey="home" title="Erode"> <Container>{renderImages()}
           <div className=" tabbutton"><Container>
       {/* <Row>
         <Col>
@@ -54,7 +54,7 @@ function Button4() {
       </Row> */}
     </Container></div>
             </Container> </Tab>
-          <Tab eventKey="profile" title="Madurai"> <Container>{renderImages()}
+          <Tab eventKey="profile" title="Tirupur"> <Container>{renderImages()}
           <div className=" tabbutton"><Container>
       {/* <Row>
         <Col>
@@ -63,7 +63,7 @@ function Button4() {
       </Row> */}
     </Container></div></Container> 
           </Tab>
-          <Tab eventKey="longer" title="Trichy"> <Container>{renderImages()}
+          <Tab eventKey="longer" title="coimbatore"> <Container>{renderImages()}
           <div className=" tabbutton"><Container>
       {/* <Row>
         <Col>
@@ -71,14 +71,8 @@ function Button4() {
         </Col>
       </Row> */}
     </Container></div></Container> </Tab>
-          <Tab eventKey="contact" title="Contact"> <Container>{renderImages()}
-          <div className=" tabbutton"><Container>
-      {/* <Row>
-        <Col>
-        <Button variant="success" className='readmore fontdesign'>Load More</Button>
-        </Col>
-      </Row> */}
-    </Container></div></Container> </Tab>
+          
+
         </Tabs>
       </Container>
 

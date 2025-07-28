@@ -27,9 +27,9 @@ function Lorem() {
               +91 98428 67128
           </a>
           <p className="section-details fontdesign animate__animated animate__fadeIn">
-            Borewell drilling work is not an easy job and has a lot of
-            intricacies to be dealt with. Borewell drilling work is not an easy
-            job and has a lot of intricacies to be dealt with.
+            Would you like to consult with our borewell drilling specialist?
+Send your requirements or call, our experts will contact you . 
+
           </p>
         </div>
       </div>

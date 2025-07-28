@@ -13,8 +13,7 @@ function Section4bg() {
           Our Recent Work</div>
             <div className="sec-4-heading">
               <div className="section-details">
-             <p className="fontdesign text-center"> Game Changer is a 2025 Indian Telugu-language politican action film directed by S. Shankar, in his Telugu debut, and
-                    produced by Dil Raju under Sri Venkateswara Creations.</p>
+             <p className="fontdesign text-center">Utilizing modern drilling techniques & equipment we provide reliable water sources for various needs, including residential, agricultural, and commercial purposes.</p>
               </div>
             </div>
           </Col>

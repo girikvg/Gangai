@@ -8,9 +8,9 @@ function OurProject() {
   const [hoverIndex, setHoverIndex] = useState(null);
 
   const projects = [
-    { title: 'Chennai', imgSrc: base1, description: 'Some quick example text to build on the card title and make up the bulk of the card\'s contentSome quick example text to build on the card title and make up the bulk of the card\'s content.' },
-    { title: 'Madurai', imgSrc: base1, description: 'Some quick example text to build on the card title and make up the bulk of the card\'s contentSome quick example text to build on the card title and make up the bulk of the card\'s content.' },
-    { title: 'Trichy', imgSrc: base1, description: 'Some quick example text to build on the card title and make up the bulk of the card\'s contentSome quick example text to build on the card title and make up the bulk of the card\'s content.' }
+    { title: 'Erode', imgSrc: base1, description: 'As the most renowned borewell drilling contractor in Erode, we provide reliable and efficient services, drilling with precision to meet client requirements—all at budget-friendly prices.' },
+    { title: 'Tirupur ', imgSrc: base1, description: 'We are one of the best borewell drilling contractors providing quality services in Tirupur. Our proven expertise and commitment to excellence has enabled us built on trust and reliability.' },
+    { title: 'coimbatore', imgSrc: base1, description: 'Being referred to as No 1 borewell drilling contractor in Coimbatore region, we do provide the best service to the customers. Our focus is to carry out the work efficiently and complete it on time.' }
   ];
 
   return (

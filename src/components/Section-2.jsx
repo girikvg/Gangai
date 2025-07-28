@@ -6,6 +6,7 @@ import Ourservice from "./Ourservice";
 import Outcontent from "./Ourservice-content";
 import Lorem from "./Lorem";
 import Loremcontent from "./Lorem-content";
+import Whygangai from "./Whygangai";
 
 function Section2bg() {
     return (
@@ -31,11 +32,18 @@ function Section2bg() {
                 
 
         </Container>
+        
         <Outcontent/>
         <Lorem/>
+        
         <Container>
         <Loremcontent/>
+        <Container id="about" className="about2">
+                    <Whygangai />
+
+                </Container>
         </Container>
+        
         
        </div>
        
